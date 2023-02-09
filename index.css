@@ -1,0 +1,168 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.bgcontainer{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(./picture/images/5400741-artist-hd-4k-neon-mask.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#logo{
+    width: 80px ;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+.text-box{
+    color: #FFF;
+    position: absolute;
+    bottom:8%;
+    margin-left: 150px;
+    
+}
+
+.text-box p{
+    font-size: 70px;
+    font-weight: 600;
+    margin
+}
+
+.text-box h1{
+
+    font-size: 200px;
+    line-height: 160px;
+    font-weight: bolder;
+    margin-left: -10px;
+    
+}
+
+text-box h3{
+    font-size: 70px;
+    font-weight: 500;
+    
+}
+
+.bottomrow{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+   
+}
+
+.text-box span{
+    margin-top: 10px;
+}
+
+.text-box a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid #fff;
+}
+
+
+#bground{
+    background-image: url(./images/portfolio-wallpapers.jpg);
+    min-height: 50vh;
+   background-position: center;
+    
+}
+
+h5{
+    color:#FFFAFA;
+}
+
+
+
+
+
+#stack{
+    font-size: 16px;
+    font-weight: bold;
+    color:#000000;
+    ;
+}
+
+.skill{
+    color:#FFFAFA;
+    padding-top: 10px;
+}
+
+.proj{
+    color: rgb(10, 10, 10);
+}
+
+.una{
+
+    color: #e70e0e;
+}
+
+.one{
+    font-size: 16px;
+    font-weight: bold;
+    color: #FF8C00;
+}
+
+.two{
+    font-size: 16px;
+    font-weight: bold;
+    color: #0f0f0f;
+}
+
+.three{
+    color:#0f0f0f;
+}
+
+.card-header{
+
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.full{
+    color:#8B4513 ;
+    text-decoration: line-through;
+}
+
+#contbg{
+    background-image: url(./images/coffee-bar.jpg);
+    min-height: 100vh;
+    background-size: cover;
+   
+}
+
+#txt{
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#titlebot{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #000000;
+    font-weight: bolder;
+}
+
+#bgproj{
+    
+        background-image: url(./images/maxresdefault.jpg);
+        min-height: 100vh;
+        background-size: cover;
+
+}
