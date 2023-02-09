@@ -1,168 +1,152 @@
-@import url(https://fonts.googleapis.com/css?family=Poppins);
-
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-}
-
-
-.bgcontainer{
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(./picture/images/5400741-artist-hd-4k-neon-mask.jpg);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
-#logo{
-    width: 80px ;
-    height: 60px;
-    padding: 0;
-    margin: 0;
-}
-
-.text-box{
-    color: #FFF;
-    position: absolute;
-    bottom:8%;
-    margin-left: 150px;
     
 }
 
-.text-box p{
-    font-size: 70px;
-    font-weight: 600;
-    margin
-}
 
-.text-box h1{
 
-    font-size: 200px;
-    line-height: 160px;
-    font-weight: bolder;
-    margin-left: -10px;
+body {
+  background: url(./image/abstract.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     
-}
-
-text-box h3{
-    font-size: 70px;
-    font-weight: 500;
-    
-}
-
-.bottomrow{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 30px;
    
-}
+  }
 
-.text-box span{
-    margin-top: 10px;
-}
+  #intro h1{
+    margin-top: 80px;
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+   
+    font-size: 100px;
+     color: 	#ffffff ;
+  font-family: 'Black Ops One', cursive;
+  text-decoration: underline #ae0001;
 
-.text-box a{
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-    margin-right: 20px;
-    border: 2px solid #fff;
-}
+  }
+/*
+  @keyframes h2 {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
 
+  .moving {
+    animation: h2 3s linear forwards infinite;
+    color: 	#ffffff ;
+    font-family: 'Black Ops One', cursive;
+    text-decoration: underline #ae0001;
+  }
 
-#bground{
-    background-image: url(./images/portfolio-wallpapers.jpg);
-    min-height: 50vh;
-   background-position: center;
+  */
+
+  @keyframes moving {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  .moving {
+    animation: moving 10s linear forwards infinite;
+    color: #ffffff;
+    font-family: 'Black Ops One', cursive;
+    text-decoration: underline #ae0001;
+    display: inline-block;
+  }
+
+  span{
+    color: #f0f0f0;
+    margin-bottom: 1px;
+  }
+nav a{
+  color: #f0f0f0;
     
 }
 
-h5{
-    color:#FFFAFA;
+#intro{
+  display:block;
+  
+}
+
+#intro h1{
+  font-family: 'Black Ops One', cursive;
+  color: 	#ffffff  ;
+  font-size: 100px;
+ 
+  
+   
+ 
+}
+  #intro p{
+    
+    padding: 5px;
+    font-size: 25px;
+    margin-top: 50px;
+ 
+    color: #f0f0f0;
+   
+  }
+ 
+ 
+  
+
+#sideimage img{
+  height: 600px;
+  width: 500px;
+  margin-top: 80px;
+  margin-right: 50px;
 }
 
 
-
-
-
-#stack{
-    font-size: 16px;
-    font-weight: bold;
-    color:#000000;
-    ;
-}
-
-.skill{
-    color:#FFFAFA;
-    padding-top: 10px;
+#bgproj{
+   background-image: url('./image/High_resolution_wallpaper_background_ID_77700321993.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 .proj{
-    color: rgb(10, 10, 10);
+  color: #ae0001;
 }
 
-.una{
+@media only screen and (max-width: 767px) {
+  #intro {
+    order: 1;
+    
+  }
+  #sideimage {
+    order: 2;
+    text-align: center;
+  }
 
-    color: #e70e0e;
+  
+  
 }
 
-.one{
-    font-size: 16px;
-    font-weight: bold;
-    color: #FF8C00;
-}
-
-.two{
-    font-size: 16px;
-    font-weight: bold;
-    color: #0f0f0f;
-}
-
-.three{
-    color:#0f0f0f;
-}
-
-.card-header{
-
-    font-family: fantasy;
-    font-size: 20px;
-}
-
-.full{
-    color:#8B4513 ;
-    text-decoration: line-through;
+.projtitle{
+  color: #f0f0f0;
+  font-family: 'Black Ops One', cursive;
+  
 }
 
 #contbg{
-    background-image: url(./images/coffee-bar.jpg);
-    min-height: 100vh;
-    background-size: cover;
-   
-}
-
-#txt{
-    color: #000000;
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-}
-
-#titlebot{
-    margin-bottom: 10px;
-    margin-top: 10px;
-    color: #000000;
-    font-weight: bolder;
-}
-
-#bgproj{
-    
-        background-image: url(./images/maxresdefault.jpg);
-        min-height: 100vh;
-        background-size: cover;
-
+  background: url(./image/sniper-artwork-dark-red-4k_1540754262.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
